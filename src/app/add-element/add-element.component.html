@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-xs-12">
+        <label>Element Name</label>
+        <input type="text" class="form-control" [(ngModel)]="name">
+
+        <label>Element Content</label>
+        <input type="text" class="form-control" [(ngModel)]="content">
+
+        <br>
+        <div class="d-grid gap-2 d-md-flex" >
+            <button type="button" class="btn btn-primary" (click)="onAddElement()">Add Element</button>
+            <button type="button" class="btn btn-secondary" (click)="onAddBlueprint()">Add Element Blueprint</button>
+         </div>
+    </div>
+</div>
